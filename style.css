@@ -1,3 +1,14 @@
 .titulo {
     color: black;
 }
+.logo {
+    border-radius: 10px;
+}
+.cabecalho {
+    background-color: rgba(160, 160, 167, 0.945);
+    font: 1em sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
