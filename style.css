@@ -30,12 +30,6 @@ body {
     height: 275px;
     width: 1487px;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
 .liverp {
     text-align: center ;
     font: 1em lucida sans;
