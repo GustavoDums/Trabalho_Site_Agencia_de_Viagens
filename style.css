@@ -1,11 +1,10 @@
+body {
+}
 .titulo {
     color: black;
 }
-.logo {
-    border-radius: 10px;
-}
 .navbar {
-    background-color: rgb(142, 155, 155);
+    background-color: rgb(146, 138, 138);
     overflow: hidden;
 }
 .navbar a{
@@ -13,8 +12,10 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 80px;
+    padding: 14px 50px;
     text-decoration: none;
+    font: 1em lucida sans;
+    font-size: 17px;
 }
 .navbar a:hover{
     background-color: #ddd;
@@ -22,5 +23,29 @@
     border-radius: 10px;
     transition: 250ms linear;
     opacity: 80%;
+}
+.bckgimg {
+    object-fit: cover;
+    height: 275px;
+    width: 1487px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.iate {
+    width: 350px;
+    margin: 20px;
+    transition: filter 0.3s;
+}
+.iate:hover {
+    filter: grayscale(100%);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
