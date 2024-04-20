@@ -50,7 +50,22 @@ body {
 .liver:hover {
     filter: grayscale(100%);
 }
-footer {
+.leedsp {
+    text-align: center ;
+    font: 1em lucida sans;
+    font-size: 20px;
+}
+.leeds {
+    width: 300px;
+    margin: 20px;
+    transition: filter 0.3s;
+    border-radius: 15px;
+}
+.leeds:hover {
+    filter: grayscale(100%);
+}
+
+footer{
     background-color: #333;
     color: white;
     text-align: center;
