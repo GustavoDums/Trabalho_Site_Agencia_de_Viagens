@@ -28,34 +28,20 @@ body {
 .bckgimg {
     object-fit: cover;
     height: 275px;
-    width: 1487px;
+    width: 100%;
 }
-.liverp {
+.text {
     text-align: center ;
     font: 1em lucida sans;
     font-size: 20px;
 }
-.liver {
+.imgci {
     width: 350px;
     margin: 20px;
-    transition: filter 0.3s;
+    transition: filter 0.5s;
     border-radius: 15px;
 }
-.liver:hover {
-    filter: grayscale(100%);
-}
-.leedsp {
-    text-align: center ;
-    font: 1em lucida sans;
-    font-size: 20px;
-}
-.leeds {
-    width: 300px;
-    margin: 20px;
-    transition: filter 0.3s;
-    border-radius: 15px;
-}
-.leeds:hover {
+.imgci:hover {
     filter: grayscale(100%);
 }
 .hospedagem{
@@ -67,9 +53,6 @@ body {
     border-radius: 10px;
     padding: 25px;
     color: white;
-    
-    
-    
 }
 .htitle{
     font:  1em lucida sans; 
