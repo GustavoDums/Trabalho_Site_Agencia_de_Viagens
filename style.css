@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(146, 138, 138);
+    background-color: rgb(107, 107, 107);
 }
 .titulo {
     color: black;
 }
 .navbar {
-    background-color: rgb(146, 138, 138);
+    background-color: rgb(156, 154, 154);
     overflow: hidden;
 }
 .navbar a{
@@ -17,6 +17,7 @@ body {
     text-decoration: none;
     font: 1em lucida sans;
     font-size: 17px;
+    height: 100%;
 }
 .navbar a:hover{
     background-color: #ddd;
@@ -33,34 +34,22 @@ body {
 .text {
     text-align: center ;
     font: 1em lucida sans;
-    font-size: 20px;
+    font-size: 22px;
 }
-.imgci {
-    width: 285px;
+.tabela{
+    height: 100%;
+}
+.img {
+    width: 75%;
     margin: 20px;
     transition: filter 0.5s;
     border-radius: 15px;
 }
-.imgci:hover {
+.img:hover {
     filter: grayscale(100%);
 }
-.hospedagem{
-    font: 1em lucida sans; 
-    border-width: 3px;
-    border-style:solid;
-    background-color: #696969;
-    border-color: rgb(3, 3, 3);
-    border-radius: 10px;
-    padding: 25px;
-    color: white;
-}
-.htitle{
-    font:  1em lucida sans; 
-    color: white;
-}
-    
 footer{
-    background-color: #333;
+    background-color: #292929;
     color: white;
     text-align: center;
     padding: 20px 0;

@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(107, 107, 107);
+}
+.htitle{
+    font:  1em lucida sans; 
+    color: rgb(255, 255, 255);
+} 
+.hospedagem{
+    font: 1em lucida sans; 
+    border-width: 3px;
+    border-style:solid;
+    background-color: #696969;
+    border-color: rgb(3, 3, 3);
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+}
