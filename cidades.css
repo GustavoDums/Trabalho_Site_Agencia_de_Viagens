@@ -9,9 +9,13 @@ body {
     font: 1em lucida sans; 
     border-width: 3px;
     border-style:solid;
-    background-color: #696969;
+    background-color: rgb(107, 107, 107); 
     border-color: rgb(3, 3, 3);
     border-radius: 10px;
     padding: 25px;
     color: white;
+    
+}
+.hospedagem:hover{
+    border:#8f1515 ;
 }
