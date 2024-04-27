@@ -17,5 +17,6 @@ body {
     
 }
 .hospedagem:hover{
-    border:#8f1515 ;
+    border:#ff9900 ;
+    border-style:solid;
 }
