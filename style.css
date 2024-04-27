@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(219, 216, 205);
+    background-image: linear-gradient( to bottom, rgb(19, 144, 153), rgb(228, 225, 217) 85%);
 }
 .titulo {
     color: black;
 }
 .navbar {
-    background-color: rgb(156, 154, 154);
+    background-color: rgb(19, 144, 153);
     overflow: hidden;
+    font-family: helvetica;
 }
 .navbar a{
     float: right;
@@ -15,16 +17,16 @@ body {
     text-align: center;
     padding: 14px 50px;
     text-decoration: none;
-    font: 1em lucida sans;
+    font-family: helvetica;
     font-size: 17px;
     height: 100%;
 }
 .navbar a:hover{
-    background-color: #ddd;
+    background-color: rgb(219, 216, 205);
     color: black;
     border-radius: 10px;
-    transition: 250ms linear;
-    opacity: 80%;
+    transition: 270ms linear;
+    opacity: 85%;
 }
 .bckgimg {
     object-fit: cover;
@@ -33,7 +35,7 @@ body {
 }
 .text {
     text-align: center ;
-    font: 1em lucida sans;
+    font-family: Helvetica;
     font-size: 22px;
 }
 .tabela{
@@ -46,12 +48,11 @@ body {
     border-radius: 15px;
 }
 .img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(67%);
 }
 footer{
-    background-color: #292929;
+    background-color: #070a18;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
-
