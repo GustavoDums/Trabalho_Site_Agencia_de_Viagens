@@ -56,3 +56,16 @@ footer{
     text-align: center;
     padding: 20px 0;
 }
+.divimg {
+    display: inline-block;
+    position: relative;
+}
+.divimg figcaption {
+    font-family: helvetica;
+    position: absolute;
+    top: 135px;
+    right: 120px;
+    font-size: 65px;
+    color: white;
+    text-shadow: 0px, 0px, 5px, black;
+}
