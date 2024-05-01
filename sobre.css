@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 .voce{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: helvetica;
     font-size: 30px;
     text-align: center;
@@ -15,9 +15,9 @@ body {
     backdrop-filter: blur(3px);
     display: inline;
     width: 74%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: helvetica;
-    font-size: 28px;
+    font-size: 27px;
     text-align: left;
     float: left;
 }
@@ -34,11 +34,11 @@ body {
     padding: 14px 50px;
     text-decoration: none;
     font-family: helvetica;
-    font-size: 18px;
+    font-size: 20px;
     height: 100%;
 }
 .navbar a:hover{
-    background-color: rgb(219, 216, 205);
+    background-color: transparent;
     color: black;
     border-radius: 10px;
     transition: 270ms linear;

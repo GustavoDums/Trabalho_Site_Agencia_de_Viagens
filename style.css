@@ -23,15 +23,15 @@ body {
     padding: 14px 50px;
     text-decoration: none;
     font-family: helvetica;
-    font-size: 18px;
+    font-size: 20px;
     height: 100%;
 }
 .navbar a:hover{
-    background-color: rgb(219, 216, 205);
+    background-color: transparent;
     color: black;
     border-radius: 10px;
     transition: 270ms linear;
-    opacity: 85%;
+    backdrop-filter: blur(20px);
 }
 .bckgimg {
     object-fit: cover;
