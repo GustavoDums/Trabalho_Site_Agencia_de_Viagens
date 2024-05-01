@@ -1,6 +1,11 @@
 body {
-    background-color: rgb(219, 216, 205);
-    background-image: linear-gradient( to bottom, rgb(19, 144, 153), rgb(228, 225, 217) 85%);
+    background: url(./img/England_Big_Ben.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
 }
 .titulo {
     color: black;
@@ -30,7 +35,7 @@ body {
 }
 .bckgimg {
     object-fit: cover;
-    height: 275px;
+    height: 235px;
     width: 100%;
 }
 .text {
@@ -63,9 +68,10 @@ footer{
 .divimg figcaption {
     font-family: helvetica;
     position: absolute;
-    top: 135px;
-    right: 120px;
+    top: 145px;
+    right: 260px;
     font-size: 65px;
     color: white;
     text-shadow: 0px, 0px, 5px, black;
+    text-align: center;
 }
