@@ -1,0 +1,38 @@
+body {
+    background-image: url(./img/teste123.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+.voce{
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    font-size: 20px;
+}
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    font-family: helvetica;
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 18px;
+    height: 100%;
+}
+.navbar a:hover{
+    background-color: rgb(219, 216, 205);
+    color: black;
+    border-radius: 10px;
+    transition: 270ms linear;
+    opacity: 85%;
+}
