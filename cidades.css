@@ -1,32 +1,8 @@
 body {
     background-color: rgb(107, 107, 107);
 }
-.htitle{
-    font:  1em lucida sans; 
-    color: rgb(255, 255, 255);
-} 
-.hospedagem{
-    font: 1em lucida sans; 
-    border-width: 3px;
-    border-style:solid;
-    background-color: rgb(107, 107, 107); 
-    border-color: rgb(3, 3, 3);
-    border-radius: 10px;
-    padding: 25px;
-    color: white;
-    
-}
-.hospedagem:hover{
-    border:#8f1515 ;
-    border-style:solid;
-}
-.economico{
-    text-decoration: none;
-    display: block;
-    color: white;
-}
 .navbar {
-    background-color: rgb(19, 144, 153);
+    background-color: transparent;
     overflow: hidden;
     font-family: helvetica;
 }
@@ -38,13 +14,13 @@ body {
     padding: 14px 50px;
     text-decoration: none;
     font-family: helvetica;
-    font-size: 18px;
+    font-size: 20px;
     height: 100%;
 }
 .navbar a:hover{
-    background-color: rgb(219, 216, 205);
+    background-color: transparent;
     color: black;
     border-radius: 10px;
     transition: 270ms linear;
-    opacity: 85%;
+    opacity: 100%;
 }
