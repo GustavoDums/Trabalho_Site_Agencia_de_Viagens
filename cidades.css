@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(107, 107, 107);
+    background: url(./img/fundocidades.jpg);
+    backdrop-filter: blur(4px);
+    position: relative;
+    background-size: cover;
 }
 .navbar {
     background-color: transparent;
@@ -25,34 +28,50 @@ body {
     opacity: 100%;
 }
 .div1 {
-    float: left;
+    float: center;
 }
 .div2 {
     float: center;
 }
 input[type="date"] {
-    background-color: #0080ff;
-    padding: 2px;
+    background-color: transparent;
+    padding: 10px 15px;
     position: relative;
-    transform: translate(20%, -40%);
     font-family: "Roboto Mono",monospace;
     color: white;
     font-size: 16px;
     border: nome;
     outline: none;
 }
+.label {
+    color: white;
+    font-family: "Roboto Mono",monospace;
+    font-size: 20px;
+}
 .tabela {
     width: 100%;
 }
 .divimg {
     font-family: "Roboto Mono",monospace;
-    font-size: 25px;
+    font-size: 45px;
+    color: white;
 }
-.divimg a {
+.divimg a{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    font-size: 30px;
 }
 .tabela img {
     border-radius: 15px;
+}
+.htitle {
+    color: white;
+    font-family: "Roboto Mono"monospace;
+    font-size: 45px;
+}
+.h2 {
+    color: white;
+    font-family: "Roboto Mono",monospace;
+    font-size: 25px;
 }
