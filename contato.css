@@ -6,8 +6,10 @@ body {
     background-size: cover;
 }
 .div1 {
-    font-family: helvetica;
-    font-size: 24px;
+    font-family: "Roboto Mono",monospace;
+    font-size: 26px;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.3em;
 }
 .navbar {
     background-color: transparent;
@@ -27,7 +29,7 @@ body {
 }
 .navbar a:hover{
     background-color: transparent;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     transition: 270ms linear;
     opacity: 100%;
