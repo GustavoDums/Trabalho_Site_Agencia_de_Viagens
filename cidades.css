@@ -42,15 +42,17 @@ input[type="date"] {
     outline: none;
 }
 .tabela {
-    height: 100%;
     width: 100%;
 }
 .divimg {
     font-family: "Roboto Mono",monospace;
     font-size: 25px;
 }
-.divimg a{
+.divimg a {
     text-decoration: none;
     color: white;
     cursor: pointer;
+}
+.tabela img {
+    border-radius: 15px;
 }
