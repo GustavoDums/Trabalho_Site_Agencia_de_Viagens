@@ -24,3 +24,33 @@ body {
     transition: 270ms linear;
     opacity: 100%;
 }
+.div1 {
+    float: left;
+}
+.div2 {
+    float: center;
+}
+input[type="date"] {
+    background-color: #0080ff;
+    padding: 2px;
+    position: relative;
+    transform: translate(20%, -40%);
+    font-family: "Roboto Mono",monospace;
+    color: white;
+    font-size: 16px;
+    border: nome;
+    outline: none;
+}
+.tabela {
+    height: 100%;
+    width: 100%;
+}
+.divimg {
+    font-family: "Roboto Mono",monospace;
+    font-size: 25px;
+}
+.divimg a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
